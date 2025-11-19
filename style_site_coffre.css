@@ -1,0 +1,61 @@
+/* Style général de la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* Style du header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* centre horizontalement */
+    align-items: center;
+    /* centre verticalement */
+    height: 50vh;
+}
+
+/* Style d’un bouton */
+button {
+    background-color: #4a90e2;
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Style d’un bloc de contenu */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+}

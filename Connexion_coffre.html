@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+        Connexion Cyber
+    </title>
+    <meta name="description" content="Courte description de la page.">
+
+    <link rel="stylesheet" href="style_site_coffre.css">
+
+    <link rel="icon" href="coffre_secu.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Connexion aux Données Cyber
+        </h1>
+    </header>
+    <main id="accueil">
+        <section id="connexion">
+            <form action="/envoyer" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nom">
+                                Nom :
+                            </label>
+                        </td>
+                        <td>
+                            <input id="nom" name="nom" type="text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="mot de passe">
+                                Mot de passe :
+                            </label>
+                        </td>
+                        <td>
+                            <textarea id="mot de passe" name="message" rows="1"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">Envoyer</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>© 2025 — Projet Cyber</p>
+    </footer>
+    <!-- Script JavaScript (placé juste avant la fin du body pour performance) -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
